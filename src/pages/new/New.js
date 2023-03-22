@@ -2,7 +2,7 @@ import React from 'react'
 
 import './new.scss'
 
-const New = () => {
+const New = ({ inputs, title }) => {
   return (
     <div>New</div>
   )
