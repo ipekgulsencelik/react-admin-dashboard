@@ -5,6 +5,7 @@ import Navbar from "../../components/app/shared/navbar/Navbar";
 import Widget from "../../components/app/shared/widget/Widget";
 import Featured from "../../components/app/shared/featured/Featured";
 import Chart from "../../components/app/shared/chart/Chart";
+import Table from "../../components/app/shared/table/Table";
 
 import "./home.scss";
 
@@ -24,6 +25,9 @@ const Home = () => {
           <Featured />
           <Chart title="Last 6 Months (Revenue)" aspect={2 / 1} />
         </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transactions</div>
+          <Table />
       </div>
     </div>
   );
